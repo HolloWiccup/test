@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="blo">
-      <div class="calc-container">
-        <div class="result-form">
-          <form>
-            <output> 1234567890232 </output>
-          </form>
+      rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="scoreboard">
+                    0
+            </div>
+            <div class="num-pad">
+                <button id="AC" type="button" class="button action clear">AC</button>
+                <button id="C" type="button" class="button action clear">C</button>
+                <button id="%" type="button" class="button action">%</button>
+                <button id="/" type="button" class="button action">&divide</button>
+                <button id="7" type="button" class="button">7</button>
+                <button id="8" type="button" class="button">8</button>
+                <button id="9" type="button" class="button">9</button>
+                <button id="*" type="button" class="button action">x</button>
+                <button id="4" type="button" class="button">4</button>
+                <button id="5" type="button" class="button">5</button>
+                <button id="6" type="button" class="button">6</button>
+                <button id="-" type="button" class="button action">-</button>
+                <button id="1" type="button" class="button">1</button>
+                <button id="2" type="button" class="button">2</button>
+                <button id="3" type="button" class="button">3</button>
+                <button id="+" type="button" class="button action">+</button>
+                <button id="." type="button" class="button">.</button>
+                <button id="0" type="button" class="button">0</button>
+                <button id="=" type="button" class="button action equal" >=</button>
+            </div>
         </div>
-        <div class="buttons-container">
-          <button>AC</button>
-          <button>C</button>
-          <button>%</button>
-          <button>&divide</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>x</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>-</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>+</button>
-          <button>.</button>
-          <button>0</button>
-          <button id="Result">=</button>
-        </div>
-      </div>
     </div>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
